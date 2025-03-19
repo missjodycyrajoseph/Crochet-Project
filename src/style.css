@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(123.5deg, rgb(244, 219, 251) 29.3%, rgb(255, 214, 214) 67.1%);
+}
+h1{
+    text-align:center;
+}
+h2{ 
+    text-align:center;
+}
+.container {
+    max-width:600px;
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+    margin:20px auto;
+}
+img{
+    max-width:100%;
+}
+button{
+    display:block;
+    margin:0 auto;
+    border: 1px solid plum;
+    background:white;
+    font-size:24px;
+    border-radius:10px;
+    padding:10px 15px;
+    transition:all 150ms ease-in-out;
+}
+button:hover{
+    background:plum;
+    cursor:pointer;
+}
+footer{
+    text-align:center;
+    margin:10px 0;
+    font-size:20px;
+}
+.theme-button{ 
+    font-size:12px;
+    background-color: black;
+    color:white;
+    padding: 5 8px;
+    display:block;
+    margin:0 auto;
+    border-radius:10px;
+    transition:all 150ms ease-in-out;
+}
+.theme-button:hover{
+  color:black;
+  background:white;  
+}
+.crochet-intro-pic {
+    border-radius:10px;
+    transition: all 150ms ease-in-out;
+}
+.crochet-intro-pic:hover{
+    filter: contrast(80%);
+    transform:scale(1.1);
+}
+p{
+    font-size:18px;
+    line-height:1.5;
+}
+.grid{
+    margin:15px 0;
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 15px;
+}
+.grid img {
+    width:100%;
+    border-radius:8px;
+    transition: all 200ms ease-in-out;
+}
+.grid img:hover {
+transform: scale(1.5);
+}
+.dark
+{
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);;
+}
+.dark .container {
+    background: linear-gradient(to right, #868f96 0%, #596164 100%);
+  color:aliceblue;
+}
+a {
+    color: #9678b6;
+}
+.dark a {
+    color: plum;
+}
